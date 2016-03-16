@@ -1,0 +1,2 @@
+./sqoop export --connect jdbc:mysql://localhost/rjodhani  --table review_stg   --export-dir /tmp/reviewfinal/ --username rjodhani --fields-terminated-by '\001' 
+
